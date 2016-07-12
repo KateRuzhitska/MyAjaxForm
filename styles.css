@@ -1,0 +1,55 @@
+body{
+    background-image: url("images/laptop.png");
+    background-size: cover;
+    font-size: 25px;
+    font-family: "Copperplate Gothic Bold";
+    color: white;
+}
+
+#submit{
+    font-family: "Copperplate Gothic Bold";
+}
+
+#header{
+    text-align: center;
+}
+
+#signIn{
+    max-width: 340px;
+    margin: 0 auto;
+    top: 80px;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+#signIn input {
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: .9em;
+    color: #888;
+}
+
+#signIn input:focus {
+    outline: none;
+    border-color: #665851;
+    transition: 0.5s;
+    color: #665851;
+}
+
+#signIn button {
+    margin-top: 0px;
+    border: 0;
+    border-radius: 2px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    background-color: transparent;
+    cursor:pointer;
+    outline: none;
+}
