@@ -14,7 +14,7 @@ body{
     text-align: center;
 }
 
-#signIn{
+#signInForm{
     max-width: 340px;
     margin: 0 auto;
     top: 80px;
@@ -23,7 +23,7 @@ body{
     border-radius: 5px;
 }
 
-#signIn input {
+#signInForm input{
     margin-bottom: 20px;
     padding: 8px;
     border: 1px solid #ccc;
@@ -32,14 +32,14 @@ body{
     color: #888;
 }
 
-#signIn input:focus {
+#signInForm input:focus{
     outline: none;
     border-color: #665851;
     transition: 0.5s;
     color: #665851;
 }
 
-#signIn button {
+#signInForm button{
     margin-top: 0px;
     border: 0;
     border-radius: 2px;
@@ -53,3 +53,4 @@ body{
     cursor:pointer;
     outline: none;
 }
+
